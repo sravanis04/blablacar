@@ -2,7 +2,7 @@
 
 A modern React-based clone of BlaBlaCar's ride-sharing platform. This project was built as a learning exercise to practice React development and modern UI implementation.
 
-![BlaBlaCar Clone Screenshot](public/screenshot.png)
+# Access project here :- `https://blablacar-teal.vercel.app/`
 
 ## 🌟 Features
 
@@ -25,7 +25,7 @@ A modern React-based clone of BlaBlaCar's ride-sharing platform. This project wa
 
 ## 🚀 Live Demo
 
-Check out the live demo deployed on Vercel: [BlaBlaCar Clone Demo](your-vercel-url-here)
+Check out the live demo deployed on Vercel: `https://blablacar-teal.vercel.app/`
 
 ## 🏃‍♂️ Getting Started
 
