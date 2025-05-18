@@ -967,37 +967,49 @@ a:active {
 .custom-calendar {
   font-family: inherit !important;
   border: none !important;
-  width: 100% !important;
+  width: 280px !important;
 }
 
 .react-datepicker {
   border: none !important;
   box-shadow: none !important;
+  font-size: 0.8rem !important;
+}
+
+.react-datepicker__month-container {
+  float: none !important;
 }
 
 .react-datepicker__header {
   background-color: var(--white) !important;
   border-bottom: none !important;
-  padding-top: var(--spacing-4) !important;
+  padding: var(--spacing-2) !important;
 }
 
 .react-datepicker__month {
-  margin: var(--spacing-2) !important;
+  margin: 0 !important;
+}
+
+.react-datepicker__day-names {
+  display: flex !important;
+  justify-content: space-around !important;
+  margin-bottom: var(--spacing-1) !important;
 }
 
 .react-datepicker__day-name {
   color: var(--primary-light) !important;
   font-weight: 500 !important;
-  width: 2rem !important;
-  line-height: 2rem !important;
+  width: 1.8rem !important;
+  line-height: 1.8rem !important;
+  margin: 0 !important;
 }
 
 .react-datepicker__day {
-  width: 2rem !important;
-  line-height: 2rem !important;
+  width: 1.8rem !important;
+  line-height: 1.8rem !important;
+  margin: 0.1rem !important;
   color: var(--primary-dark) !important;
   border-radius: 50% !important;
-  margin: 0.2rem !important;
 }
 
 .react-datepicker__day:hover {
@@ -1022,15 +1034,19 @@ a:active {
 .react-datepicker__current-month {
   color: var(--primary-dark) !important;
   font-weight: 600 !important;
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
+  margin-bottom: var(--spacing-2) !important;
 }
 
 .react-datepicker__navigation {
-  top: var(--spacing-4) !important;
+  top: var(--spacing-2) !important;
 }
 
 .react-datepicker__navigation-icon::before {
   border-color: var(--primary-dark) !important;
+  border-width: 2px 2px 0 0 !important;
+  height: 7px !important;
+  width: 7px !important;
 }
 
 /* Mobile responsive styles for calendar */
@@ -1043,7 +1059,7 @@ a:active {
     right: 0;
     margin: 0;
     border-radius: 16px 16px 0 0;
-    padding: var(--spacing-4);
+    padding: var(--spacing-3);
     background-color: var(--white);
   }
 
@@ -1052,12 +1068,12 @@ a:active {
   }
 
   .react-datepicker__month-container {
-    width: 100%;
+    width: 100% !important;
   }
 
-  .react-datepicker__day-name,
-  .react-datepicker__day {
-    width: 2.5rem !important;
-    line-height: 2.5rem !important;
+  .react-datepicker__day,
+  .react-datepicker__day-name {
+    width: 2rem !important;
+    line-height: 2rem !important;
   }
 }

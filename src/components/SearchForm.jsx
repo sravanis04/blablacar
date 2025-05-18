@@ -92,6 +92,8 @@ const SearchForm = () => {
                 inline
                 minDate={new Date()}
                 calendarClassName="custom-calendar"
+                showPopperArrow={false}
+                fixedHeight
                 dayClassName={date =>
                   date.getDate() === startDate?.getDate() &&
                   date.getMonth() === startDate?.getMonth()
